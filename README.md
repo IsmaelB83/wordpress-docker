@@ -10,12 +10,7 @@ $ wordpress-docker/sudo docker-compose up
 
 # To check running containers
 $ docker container list
-CONTAINER ID   IMAGE                   COMMAND                     CREATED          STATUS                  PORTS                                                    NAMES
-0f674a2baf78   wordpress:latest        "docker-entrypoint.s…"      36 hours ago     Up About a minute       0.0.0.0:4282->80/tcp, :::4282->80/tcp                    wordpresscontainer
 
-950b50249e34   phpmyadmin/phpmyadmin   "/docker-entrypoint.…"      36 hours ago     Up About a minute       0.0.0.0:4283->80/tcp, :::4283->80/tcp                    phpmyadmincontainer
-
-d86d384d185b   mysql:5.7               "docker-entrypoint.s…"      36 hours ago     Up About a minute       33060/tcp, 0.0.0.0:4208->3306/tcp, :::4208->3306/tcp     mysqlcontainer
 
 # To delete containers
 
